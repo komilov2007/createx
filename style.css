@@ -20,6 +20,8 @@ body {
   --text-20px:#424551;
   --kulrang-text:#787A80;
   --gray-page:#F4F5F6;
+  --background-color:#FFFFFF;
+  --karobka-color:#FFCF2D;
 }
 .container {
   max-width: 1230px;
@@ -77,6 +79,7 @@ a img {
  flex-direction: row;
  gap: 130px;
  margin-top: 120px;
+ 
 }
 .texts{
     display: flex;
@@ -100,4 +103,15 @@ margin-bottom: 40px;
 .gray{
   background-color: var(--gray-page);
 }
+.white-box{
+  background-color: var(--background-color);
+}
+.karobka{
+  width: 385px;
+  height: 416px;
 
+}
+.yellow{
+  height: 340px;
+  background-color: var(--karobka-color);
+}
