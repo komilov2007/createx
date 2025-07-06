@@ -11,7 +11,7 @@ body {
 }
 :root {
   --orange-color: #ff3f3a;
-  --sariq-color: #f89828;
+  --sariq-color: #b79d77;
   --yashil-color: #03cea4;
   --kok-color: #5a87fc;
   --sect-color: #f75e05;
@@ -23,9 +23,10 @@ body {
   padding: 20px;
 }
 header {
-  height: 52px;
   display: flex;
-  background-color: var(--sect-color);
+  background-color: var(--sariq-color);
+  height: 1080px;
+  width: 100%;
 }
 header h1 {
   font-family: 'Roboto';
@@ -37,5 +38,12 @@ a img {
 .btn-orange {
   width: 207px;
   height: 52px;
-  background-color: var(--orange-color);
+  background-color: var(--sariq-color);
+}
+.head-top {
+  display: flex;
+}
+.head-top a {
+  display: flex;
+  /* flex-direction: column; */
 }
