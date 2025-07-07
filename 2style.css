@@ -398,7 +398,7 @@ p {
     width: 20px;
     height: 20px;
   }
-  .container {
+  /* .container {
     max-width: 1200px;
     margin: auto;
     padding: 20px;
@@ -406,7 +406,7 @@ p {
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-  }
+  } */
   
   .header {
     background: linear-gradient(to right, #ffe9e3, #fce5dd);
@@ -928,3 +928,6 @@ p {
     margin-bottom: 60px;
    }
   
+
+
+   
