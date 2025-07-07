@@ -860,7 +860,12 @@ p {
     justify-content: center;
     margin-top:16px ;
   }
-  .jami{
+  .our-text {
+ 
+    position: relative;
+    top: 100px;
+  }
+  /* .jami{
     display: flex;
     flex-direction: row;
     gap: 30px;
@@ -904,27 +909,27 @@ p {
     flex-direction: row;
     gap: 84px;
     align-items: center;
-   }
-   .dots{
+   } */
+   /* .dots{
     display: flex;
     flex-direction: row;
     gap: 12px;
     align-items: center;
     justify-content: center;
     margin-bottom: 100px;
-   }
+   } */
    .button-header{
     display: flex;
     flex-direction: column;
     gap: 8px;
     
    }
-   .top-side{
+   /* .top-side{
     margin-top: 120px;
     display: flex;
     flex-direction: row;
     align-items: end;
     justify-content: space-between;
     margin-bottom: 60px;
-   }
+   } */
   
