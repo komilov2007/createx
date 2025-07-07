@@ -126,6 +126,7 @@ margin-bottom: 40px;
   gap: 4px;
   align-items: center;
   justify-content: center;
+  margin-top:16px ;
 }
 .jami{
   display: flex;
@@ -133,5 +134,81 @@ margin-bottom: 40px;
   gap: 30px;
   margin-top: 60px;
 }
-
-
+.odamlar{
+  margin-bottom: 60px;
+}
+.students-words{
+  margin-top: 180px;
+}
+.eleanor{
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.quote-bottom{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  margin-top: 24px;
+  align-items: center;
+}
+/* .quote-top{
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: start;
+} */
+ .quote-box{
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: start;
+  justify-content: center;
+  background-color: var(--background-color);
+  height: 344px;
+  width: 1020px;
+  padding: 64px 105px;
+  margin-bottom: 60px;
+ }
+ .header-quote{
+  margin-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+ }
+ .students-words{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+ }
+ .mid{
+  display: flex;
+  flex-direction: row;
+  gap: 84px;
+  align-items: center;
+ }
+ .dots{
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 100px;
+ }
+ .button-header{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  
+ }
+ .top-side{
+  margin-top: 120px;
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  justify-content: space-between;
+  margin-bottom: 60px;
+ }
