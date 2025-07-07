@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -66,7 +67,7 @@ header h1 {
   width: 20px;
   height: 20px;
 } */
-buttons .btn-orange a img {
+.buttons .btn-orange a img {
   width: 20px;
   height: 20px;
 }
@@ -112,7 +113,22 @@ buttons .btn-orange a img {
   color: var(--text-color);
   background-color: var(--gray-page);
 }
-
+.tutors-btn {
+  display: flex;
+}
+.tutors-text {
+  width: 307px;
+  height: 46px;
+  background-color: transparent;
+  border: none;
+  
+  /* border: 1px solid var(--orange-color); */
+}
+.tutors-text:hover {
+    border: 2px solid var(--orange-color);
+    border-radius: 5px;
+    color: var(--orange-color);
+}
 .login {
   margin-left: 15px;
   text-decoration: none;
@@ -176,7 +192,62 @@ buttons .btn-orange a img {
   background: linear-gradient(to right, #ffe9e3, #fce5dd);
   padding: 30px 0;
 }
+.lectures {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--background-color);
+  height: 126px;
+  width: 1200px;
+  position: absolute;
+  left: 160px;
+  
+}
+.lectures-sect {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--background-color);
+  height: 126px;
+  width: 1200px;
+  position: absolute;
+  top: 225px;
+  left: 160px;
+  
+}
+.lectures-secti {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--background-color);
+  height: 126px;
+  width: 1200px;
+  position: absolute;
+  top: 500px;
+  left: 160px;
 
+}
+.lectures:hover {
+  box-shadow: 0 0 10px var(--kulrang-text);
+}
+.lectures-avg:hover {
+  box-shadow: 0 0 10px var(--kulrang-text);
+}
+.lectures-sect:hover {
+  box-shadow: 0 0 10px var(--kulrang-text);
+}
+.lectures-btn:hover {
+  color: var(--background-color);
+  background-color: var(--orange-color);
+}
+.lectures-avg b {
+  font-size: 55px;
+  color: var(--orange-color);
+  margin-left: 50px;
+}
 .stats-content {
   display: flex;
   justify-content: center;
@@ -204,12 +275,41 @@ buttons .btn-orange a img {
   padding: 20px;
   margin-right: 50px;
 }
+.lectures-avg {
+  display: flex;
+  gap: 20px;
+}
+.lectures-avg p {
+  padding-right: 40px;
+  font-family: 'Lato';
+  font-size: 20px;
+}
+.lectures-btn {
+padding: 10px 32px;
+width: 150px;
+height: 50px;
+background-color: transparent;
+border: 2px solid var(--orange-color);
 
+}
 .content-section {
   flex: 1;
   padding: 20px;
 }
+.lectures-avg span {
+  opacity: 50%;
 
+}
+.t-sect {
+  background-color: var(--header-color);
+  width: 100%;
+  height: 850px;
+  display: flex;
+ 
+  flex-wrap: wrap;
+  position: relative;
+
+}
 h1 {
   color: #333;
 }
